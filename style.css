@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background-color: #333131;
+}
+.nav {width: 1080px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: white;
+    font-size: 40px;
+    padding: 18px;
+}
+.nav-links {
+    width: 1080px;
+    margin: 0 auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.button {
+    background-color: #17a2b8;
+    color: white;
+    width: 80px;
+    height: 35px;
+}
+div a {
+    color: white;
+    text-decoration: none;
+}
+.main {
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 35px;
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-body {
+    padding: 20px;
+}
+.card-body, h1 {
+    margin: 20px 0px;
+}
+.card-body, h3 {
+    margin: 20px 0px;
+}
+.icon-s {
+    height: 20px;
+}
+.card-body a {
+    color: #3a81e6;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+    margin: 0 auto;
+}
+.edu-head {
+    color: white;
+    background-color: #333131;
+    margin: 0;
+    padding: 5px;
+}
+.edu-info {
+    border: solid #999;
+    padding: 5px;;
+}
+.school {
+    font-size: 25px;
+}
+.date {
+    font-size: 20px;
+    color: #999;
+}
+.course {
+    font-size: 20px;
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
+
+}
+.connections{
+    width: 300px;
+    border: solid #999;
+}
+.req2{background-color: #999;
+    border: solid #333131;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 32px;
+
+}
+.connectionReq {
+    margin: 0 auto;
+    background-color: #333131;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ConReq {
+    color: white;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+}
+.req-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 7px;
+}
+.reqPhoto {
+    width: 65px;
+    border: #333131;
+    border-radius: 50%;
+}
+.acpt-dny {
+    width: 35px;
+}
+.todd {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.phil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.your-connections {
+    border: solid #999;
+}
+.connectionReq2{
+    margin: 0 auto;
+    background-color: #333131;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.req3{
+    background-color: #999;
+    border: solid #333131;
+    border-radius: 50%;
+    height: 50px;
+    width: 85px;
+    text-align: center;
+    font-size: 36px;
+}
+.profile-image {
+    display: flex;
+    align-items: center;
+}
+.view-more {
+    border-top: solid #999;    
+    color: #3a81e6;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.bottom {
+    margin: 0 auto;
+    height: 50px;
+    background-color: #999;
+}
